@@ -123,6 +123,7 @@
     --bs-form-valid-border-color: #198754;
     --bs-form-invalid-color: #dc3545;
     --bs-form-invalid-border-color: #dc3545
+    
 }
 
 [data-bs-theme=dark] {
@@ -255,14 +256,16 @@ h1 {
 
 .h2,
 h2 {
-    font-size: calc(1.325rem + .9vw)
+    font-size: calc(1.325rem + .9vw);
+    color: #ffffff;
 }
 
-@media (min-width:1200px) {
+@media (min-width:450px) {
 
     .h2,
     h2 {
-        font-size: 2rem
+        font-size: 2rem;
+        color: #ffffff;
     }
 }
 
@@ -463,24 +466,31 @@ img, svg {
 
 .about-image {
     vertical-align: middle;
-    max-width: 500px;
+    width: 500px;
     height: 280px;
     border-radius: 12px;
 }
 
 
-@media (min-width: 550px) {
+
+@media (max-width: 500px) {
+    .about-image {
+        vertical-align: middle;
+        width: 350px;
+        height: 220px;
+        border-radius: 12px;
+        
+    }
+  }
+  @media (min-width: 768px) {
     .about-image {
         vertical-align: middle;
         width: 500px;
         height: 280px;
         border-radius: 12px;
+        text-align: center;
     }
   }
-
-@media screen {
-
-}
 
 table {
     caption-side: bottom;
@@ -783,7 +793,7 @@ progress {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-thumbnail {
@@ -5134,7 +5144,7 @@ fieldset:disabled .btn {
 
 .card-text:last-child {
     margin-bottom: 0;
-    background-color: #000002;
+    background-color: #a7505000;
 }
 
 .card-link+.card-link {
@@ -9906,8 +9916,8 @@ fieldset:disabled .btn {
 
 .bg-body-logo {
     --bs-bg-opacity: 1;
-    background-color: #a7a7a7;
-    border-radius: 7px;
+    background-color: #6e6e6e;
+    border-radius: 7px; 
     border-color: #000002;
 }
 
