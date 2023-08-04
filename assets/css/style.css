@@ -3940,9 +3940,9 @@ fieldset:disabled .btn {
     --bs-dropdown-padding-y: 0.5rem;
     --bs-dropdown-spacer: 0.125rem;
     --bs-dropdown-font-size: 1rem;
-    --bs-dropdown-color: var(--bs-body-color);
-    --bs-dropdown-bg: var(--bs-body-bg);
-    --bs-dropdown-border-color: var(--bs-border-color-translucent);
+    --bs-dropdown-color: #ffffff;
+    --bs-dropdown-bg: #ffffff;
+    --bs-dropdown-border-color: #ffffff;
     --bs-dropdown-border-radius: var(--bs-border-radius);
     --bs-dropdown-border-width: var(--bs-border-width);
     --bs-dropdown-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
@@ -3957,7 +3957,7 @@ fieldset:disabled .btn {
     --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
     --bs-dropdown-item-padding-x: 1rem;
     --bs-dropdown-item-padding-y: 0.25rem;
-    --bs-dropdown-header-color: #6c757d;
+    --bs-dropdown-header-color: #ffffff;
     --bs-dropdown-header-padding-x: 1rem;
     --bs-dropdown-header-padding-y: 0.5rem;
     position: absolute;
@@ -4250,7 +4250,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark {
     --bs-dropdown-color: #dee2e6;
-    --bs-dropdown-bg: #343a40;
+    --bs-dropdown-bg: #ffffff;
     --bs-dropdown-border-color: var(--bs-border-color-translucent);
     --bs-dropdown-box-shadow: ;
     --bs-dropdown-link-color: #dee2e6;
@@ -4610,7 +4610,7 @@ fieldset:disabled .btn {
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    color: var(--bs-navbar-brand-hover-color)
+    color: var(--bs-navbar-brand-hover-color)   
 }
 
 .navbar-nav {
@@ -4629,11 +4629,12 @@ fieldset:disabled .btn {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: var(--bs-navbar-active-color)
+    color: #fff;
 }
 
 .navbar-nav .dropdown-menu {
-    position: static
+    position: static;
+    
 }
 
 .navbar-text {
@@ -4645,7 +4646,7 @@ fieldset:disabled .btn {
 .navbar-text a,
 .navbar-text a:focus,
 .navbar-text a:hover {
-    color: var(--bs-navbar-active-color)
+    color: #d4d4d4;
 }
 
 .navbar-collapse {
@@ -4659,7 +4660,7 @@ fieldset:disabled .btn {
     font-size: var(--bs-navbar-toggler-font-size);
     line-height: 1;
     color: #ffffff;
-    background-color: #797979;;
+    background-color: #ffffff;;
     border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
@@ -4673,7 +4674,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler:hover {
-    text-decoration: none
+    text-decoration: none;
+    background-color: #b8b8b8;
 }
 
 .navbar-toggler:focus {
